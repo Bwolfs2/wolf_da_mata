@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "284414983892",
+    "project_id": "wolf-da-mata",
+    "storage_bucket": "wolf-da-mata.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:284414983892:android:298b98db2ccf1250124541",
+        "android_client_info": {
+          "package_name": "com.wolf_da_mata"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "284414983892-rmusft53a34nuae1o6o2su2deihp1e9h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnijLRYgUff3Z1orTebk6gNDDbJ9oCPQk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "284414983892-rmusft53a34nuae1o6o2su2deihp1e9h.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "284414983892-9v95rqutd38c3sdqcokvggruohnfbj1q.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.wolf-da-mata"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

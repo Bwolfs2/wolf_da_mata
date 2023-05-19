@@ -15,7 +15,13 @@ class MovieRepository {
   }
 
   void addMovie({required String id, required String name}) {
-    moviesRef.doc(id).set(Movie(id, name));
+    moviesRef.doc(id).set(
+          Movie(
+            id,
+            name,
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjtY_EqGA246IDir0ohdiUs-krqW_PV1BB_Q&usqp=CAU',
+          ),
+        );
   }
 
   Future<List<Movie>> getMoviesByPlant(String type) async {
